@@ -8,10 +8,9 @@ Hey there, it's me, One-Shot! Your ultimate interview practice sidekick! 🌟 Wi
 
 This will install the python environment, necessary dependencies and catkin workspace for the project. Open a terminal and enter the commands below line by line.
 
-Setup the Python environment and making it default:
+Setup the Python environment and enabling it for this shell session:
 - <code>pyenv install 3.9.2</code> </br>
 - <code>pyenv shell 3.9.2</code> </br>
-- <code>echo "pyenv shell 3.9.2" >> ~/.bashrc</code> </br>
 
 
 Installing the necessary Python dependencies: </br>
@@ -50,6 +49,7 @@ This project will be using both OpenAI and Tavily's APIs for <code>gpt-3.5-turbo
 
 To run the project, open 6 terminals and enter the below in all of them: </br>
 - <code>cd /home/mustar/catkin_ws_2/src/group3/src</code> </br>
+- <code>pyenv shell 3.9.2</code> </br>
 
 Then in each of the terminals, run the different nodes:
 - <code>roscore</code> </br>
